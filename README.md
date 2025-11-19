@@ -19,13 +19,12 @@ After you downloaded and extracted this archive, you have to compile it:
 cd /folder/to/libgarbage
 make
 sudo make install
-sudo ldconfig
 
 ```
 
 # How use it ?
 
-## Linkage
+## Linking
 
 The libgarbage is provided with a pkg-config command:
 

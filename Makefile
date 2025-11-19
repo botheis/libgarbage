@@ -43,6 +43,7 @@ install:
 		-e "s|@VERSION@|$(VERSION)|" \
 		pkgconfig/$(LIB_NAME).pc.in \
 		> $(PREFIX)/lib/pkgconfig/$(LIB_NAME).pc
+	ldconfig
 
 
 examples:all
