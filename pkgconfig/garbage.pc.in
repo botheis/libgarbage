@@ -1,0 +1,11 @@
+prefix=@PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: garbage
+Description: Free dynamically allocations pushed into the garbage
+Version: @VERSION@
+Libs: -L${libdir} -lgarbage
+Cflags: -I${includedir}
+ 
